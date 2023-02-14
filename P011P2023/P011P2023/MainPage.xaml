@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P011P2023.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="PM02!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Nombre" FontSize="Title" Padding="0,0,0,0"/>
+        <Entry x:Name="nombre" Placeholder="Ingrese Nombre" Keyboard="Text" Margin="5,0,5,0"/>
+
+        <Label Text="Apellidos" FontSize="Title" Padding="0,0,0,0"/>
+        <Entry x:Name="apellido" Placeholder="Ingrese Apellido" Keyboard="Text" Margin="5,0,5,0" />
+
+        <Label Text="Telefono" FontSize="Title" Padding="0,0,0,0"/>
+        <Entry x:Name="telefono" Placeholder="Ingrese Telefono" Keyboard="Telephone" Margin="5,0,5,0" />
+
+        <Button Text="Ir a segunda Pagina" x:Name="btnsegunda" Clicked="btnsegunda_Clicked" BackgroundColor="AliceBlue" TextColor="Blue" />
+
+
+    </StackLayout>
+
+</ContentPage>
